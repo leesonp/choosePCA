@@ -1,0 +1,22 @@
+/* miniprogram/pages/choosePCA/choosePCA.wxss */
+.topView{
+  width: 100%;
+  height: 80rpx;
+  display: flex;
+  flex-direction: row;
+  background: gainsboro;
+}
+
+.topBt{
+  margin-left: 10rpx;
+  margin-right: 20rpx;
+  background: red;
+  height: 100%;
+  line-height: 80rpx;
+}
+
+.slider{
+  background: #2B7AF1;
+  width: 100rpxx;
+  height: 10rpx;
+}

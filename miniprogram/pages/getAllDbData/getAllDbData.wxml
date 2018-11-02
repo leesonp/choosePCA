@@ -1,0 +1,5 @@
+<!--miniprogram/pages/getAllDbData.wxml-->
+<button bindtap='showAllData' style='color:red;margin-top:20rpx;width:100rpx;font-size:20rpx'>获取</button>
+<button bindtap='gotoCityDataPage' style='color:green;margin-top:20rpx;width:200rpx;font-size:20rpx'>地址选择器</button>
+<button bindtap='gotoCityInfoPage' style='color:#e230f0;margin-top:20rpx;width:250rpx;font-size:20rpx'>地址选择器(table)</button>
+<text wx:for="{{info}}" wx:for-item="detail" wx:key="">{{index + 1}}.{{detail.abstract}}</text>
